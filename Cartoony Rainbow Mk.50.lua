@@ -46,6 +46,7 @@ local att0 = Instance.new("Attachment", i)
 
 att0.Position = Vector3.new(0,0,0) 
 
+--test
 
 local att1 = Instance.new("Attachment", v)
 att1.Position = Vector3.new(0,-1.2,-.5)--position
