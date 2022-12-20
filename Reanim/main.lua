@@ -7,7 +7,7 @@ local Global = getgenv and getgenv() or _G
 	local Mouse = Player:GetMouse()
 
 	local MouseDown = false;
-	local FlingEnabled = true
+	local FlingEnabled = false
 	getgenv().isnetworkowner = isnetworkowner or function(part) return part.ReceiveAge == 0 end 
 	--[[
 		part.ReceiveAge is the time in seconds since the last time the physics of a basepart has updated, if 0 then theres no physics (its anchored)
