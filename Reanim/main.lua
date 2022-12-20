@@ -7,7 +7,7 @@ local Global = getgenv and getgenv() or _G
 	local Mouse = Player:GetMouse()
 
 	local MouseDown = false;
-	local FlingEnabled = false
+	local FlingEnabled = true
 	getgenv().isnetworkowner = isnetworkowner or function(part) return part.ReceiveAge == 0 end 
 	--[[
 		part.ReceiveAge is the time in seconds since the last time the physics of a basepart has updated, if 0 then theres no physics (its anchored)
@@ -69,7 +69,7 @@ local Global = getgenv and getgenv() or _G
 		Global.Fling = Character.Humanoid.RigType == Enum.HumanoidRigType.R15 and 'LowerTorso' or Global.Reanimation == "PermaDeath" and 'HumanoidRootPart' or 'Right Arm'
 		Global.ShowReal = true
 		Global.GodMode = Global.Reanimation == 'PermaDeath' and true or false
-		Global.Velocity = -25
+		Global.Velocity = -35
 		Global.Collisions = true
 		Global.AntiSleep = true
 		Global.MovementVelocity = false
