@@ -9,7 +9,7 @@
 --getgenv().ReanimateVersion = "v5"
 
 --[[How to use ?
-1) do loadstring(game:HttpGet(''))()
+1) do loadstring(game:HttpGet('https://raw.githubusercontent.com/TheRealLxops/Fe-Hat-Scripts/main/Reanim/selexityreanim.lua'))()
 
 2) place reanimate version 
 the versions are at the start of the code
@@ -18,7 +18,7 @@ getgenv().ReanimateVersion = "v5"
 3) now u are done example of script:
 
 getgenv().ReanimateVersion = "v5"
-loadstring(game:HttpGet(''))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/TheRealLxops/Fe-Hat-Scripts/main/Reanim/selexityreanim.lua'))()
 
 ]]
 
